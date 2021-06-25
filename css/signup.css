@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+#header{
+    height: 90px;
+    display: flex;
+}
+.logo-div{
+    flex-grow: 9;
+}
+#logo{
+    display: block;
+    margin-right: auto;
+    margin-left: 53%;
+    height: 90px;
+    width: 90px;
+    border-radius: 25px;
+}
+#logoutbtn{
+    flex-grow: 1;
+    background-color: white;
+    position: relative;
+    width: 50px;
+    height: 90px;
+    border: white;
+    font-size: 35px;
+    cursor: pointer;
+    float: right;
+}
+/* signup box */
+#signupBox{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 500px;
+    width: 380px;
+    border-radius: 25px;
+}
+#signupBox1{
+    background-color: black;
+    height: 140px;
+    border-radius: 25px 25px 25px 25px;
+}
+#signupIcon{
+    width: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 2.5%;
+}
+.Signupinput{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#signUpBtn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 125px;
+    height: 35px;
+    border: none;
+    margin-top: 310px;
+    border-radius: 25px;
+    cursor: pointer;
+}

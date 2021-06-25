@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup | Wise Words</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+</head>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<body>
+    <div id="header">
+        <div class="logo-div">
+        <img src="logo.jpg" alt="" id="logo">
+        </div>
+        <button id="logoutbtn">
+            <p style="font-size: 20px;">Log In</p>
+        </button>
+        
+    </div>
+    <center>
+    <div id="signupBox">
+        <div id="signupBox1">
+            <img src="../images/signup1.png" alt=""  id="signupIcon">
+            <input type="text"  class="Signupinput" placeholder="User Name" id="userName"><br>
+            <input type="email"  class="Signupinput" placeholder="Email Address" id="emailAddress"><br>
+            <input type="password"  class="Signupinput" placeholder="Password" id="password"><br>
+            <input type="text"  class="Signupinput" placeholder="Date Of Birth as DD-MM-YYYY" id="dataOfBirth"><br>
+            <input type="tel" class="Signupinput" placeholder="Mobile Number" id="mobile"><br>
+            <input type="text"  class="Signupinput" placeholder="Address" id="Address"><br>
+            
+        </div>
+            <input type="button" value="Sign Up" id="signUpBtn">
+    </div>
+    </center>
+</body>
+<script src="../config/config.js"></script>
+<script src="../js/signUp.js"></script>
+</html>

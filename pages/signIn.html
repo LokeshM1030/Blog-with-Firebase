@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In | Wise Words</title>
+    <link rel="stylesheet" href="../css/signin.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo-div">
+        <img src="logo.jpg" alt="" id="logo">
+        </div>
+        <button id="logoutbtn">
+            <p style="font-size: 20px;">Sign Up</p>
+        </button>
+        
+    </div>
+    <center>
+    <div id="signinBox">
+        <div id="signinBox1">
+            <img src="../images/singin.png" alt=""  id="signinIcon">
+            <input type="text"  class="Signininput" placeholder="Email Address" id="emailAddress"><br>
+            <input type="password"  class="Signininput" placeholder="Password" id="password"><br>
+        </div>
+            <button id="signinBtn">Sign In</button>
+    </div>
+    </center>
+</body>
+<script src="../config/config.js"></script>
+<script src="../js/signIn.js"></script>
+</html>
